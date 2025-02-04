@@ -2,7 +2,7 @@
 
 
 def echo(text: str, repetitions: int = 3) -> str:
-  """Imitate a real world echo"""
+  """Imitate a real world echo."""
   if len(text) >= repetitions:
     for i in range(repetitions):
       i = -1*(i-repetitions)
