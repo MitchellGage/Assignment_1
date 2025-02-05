@@ -20,7 +20,7 @@ def fib(n: int) -> int:
         lastNum = currNum
         dur = time.time() - startTime
         y.append(dur)
-        print(f"Finished in {dur} s: f({i + 2}) -> {nextNum}")
+        print(f"Finished in {dur}s: f({i + 2}) -> {nextNum}")
     x = list(range(0, n + 1))
     plot.plot(x, y)
     plot.show()
