@@ -21,7 +21,7 @@ def fib(n: int) -> int:
         dur = time.time() - startTime
         y.append(dur)
         print(f"Finished in {dur} s: f({i + 2}) -> {nextNum}")
-    x = list(range(0, 101))
+    x = list(range(0, n + 1))
     plot.plot(x, y)
     plot.show()
     return nextNum
