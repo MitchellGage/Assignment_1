@@ -1,4 +1,6 @@
 # Assignment 1
+### Mitchell Gage
+### Using Python 3.11
 ## Echo program:
 ![Echo program](https://github.com/user-attachments/assets/2466cebb-2c81-4dcc-9db9-10049e77fbe6)
 ###
